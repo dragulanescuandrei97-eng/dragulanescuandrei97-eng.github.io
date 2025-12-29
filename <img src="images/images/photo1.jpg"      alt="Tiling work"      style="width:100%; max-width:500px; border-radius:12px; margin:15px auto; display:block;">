@@ -47,7 +47,9 @@
   </style>
 </head>
 
-<body>
+<img src="images/images/photo1.jpg"
+     alt="Tiling work"
+     style="width:100%; max-width:500px; border-radius:12px; margin:20px auto; display:block;">
 
 <header>
   <h1>Andrei Tiling Services</h1>
