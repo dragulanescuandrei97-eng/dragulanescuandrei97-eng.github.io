@@ -15,7 +15,8 @@ body {
 .hero {
   height: 100vh;
   background:
-i.hero {
+/* HERO */
+.hero {
   height: 100vh;
   background:
     linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
@@ -24,6 +25,7 @@ i.hero {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
 }
   display: flex;
   align-items: center;
