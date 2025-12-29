@@ -17,7 +17,7 @@ body {
   height: 100vh;
   background:
     linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-    url("images/hero.jpg.heic");
+    url("images/hero.jpg.2PNG");
   background-size: cover;
   background-position: center;
   display: flex;
