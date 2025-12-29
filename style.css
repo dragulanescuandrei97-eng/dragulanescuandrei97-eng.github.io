@@ -1,112 +1,38 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
 
-body {
-  font-family: "Georgia", serif;
-  background-color: #0f0f0f;
-  color: #e6e6e6;
-  line-height: 1.6;
-.hero {
-  height: 100vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url("hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  body {
+    overflow-x: hidden;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-/* HERO */
-.hero {
-  height: 100vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url("./images/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+  .about,
+  .services {
+    display: block;
+    width: 100%;
+  }
 
-.hero-content h1 {
-  font-size: 52px;
-  letter-spacing: 6px;
-  color: #d4af37; /* gold */
-}
+  .about h2,
+  .services h2 {
+    margin-bottom: 20px;
+  }
 
-.hero-content p {
-  font-size: 18px;
-  margin-top: 15px;
-  color: #f5f5f5;
-}
+  .about p {
+    max-width: 100%;
+    margin: 0 auto;
+  }
 
-/* ABOUT */
-.about {
-  padding: 80px 20px;
-  max-width: 900px;
-  margin: auto;
-  text-align: center;
-}
+  .service-box {
+    width: 100%;
+    margin: 20px auto;
+  }
 
-.about h2 {
-  font-size: 32px;
-  color: #d4af37;
-  margin-bottom: 20px;
-}
-
-/* SERVICES */
-.services {
-  padding: 80px 20px;
-  background: #111;
-  text-align: center;
-}
-
-.services h2 {
-  font-size: 32px;
-  color: #d4af37;
-  margin-bottom: 40px;
-}
-
-.service-box {
-  background: #1a1a1a;
-  padding: 30px;
-  margin: 20px auto;
-  max-width: 400px;
-  border: 1px solid rgba(212,175,55,0.3);
-}
-
-.service-box h3 {
-  color: #d4af37;
-  margin-bottom: 10px;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  background: #000;
-  color: #aaa;
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+  }
 }
